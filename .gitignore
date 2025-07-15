@@ -136,6 +136,14 @@ ENV/
 env.bak/
 venv.bak/
 
+#conda
+*.pyc
+__pycache__/
+.conda/
+envs/
+.ipynb_checkpoints/
+
+
 # Spyder project settings
 .spyderproject
 .spyproject
