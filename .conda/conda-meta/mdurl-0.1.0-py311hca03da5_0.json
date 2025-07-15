@@ -1,0 +1,193 @@
+{
+  "build": "py311hca03da5_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "python >=3.11,<3.12.0a0"
+  ],
+  "extracted_package_dir": "/opt/anaconda3/pkgs/mdurl-0.1.0-py311hca03da5_0",
+  "files": [
+    "lib/python3.11/site-packages/mdurl-0.1.0.dist-info/INSTALLER",
+    "lib/python3.11/site-packages/mdurl-0.1.0.dist-info/LICENSE",
+    "lib/python3.11/site-packages/mdurl-0.1.0.dist-info/METADATA",
+    "lib/python3.11/site-packages/mdurl-0.1.0.dist-info/RECORD",
+    "lib/python3.11/site-packages/mdurl-0.1.0.dist-info/REQUESTED",
+    "lib/python3.11/site-packages/mdurl-0.1.0.dist-info/WHEEL",
+    "lib/python3.11/site-packages/mdurl-0.1.0.dist-info/direct_url.json",
+    "lib/python3.11/site-packages/mdurl/__init__.py",
+    "lib/python3.11/site-packages/mdurl/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/mdurl/__pycache__/_decode.cpython-311.pyc",
+    "lib/python3.11/site-packages/mdurl/__pycache__/_encode.cpython-311.pyc",
+    "lib/python3.11/site-packages/mdurl/__pycache__/_format.cpython-311.pyc",
+    "lib/python3.11/site-packages/mdurl/__pycache__/_parse.cpython-311.pyc",
+    "lib/python3.11/site-packages/mdurl/__pycache__/_url.cpython-311.pyc",
+    "lib/python3.11/site-packages/mdurl/_decode.py",
+    "lib/python3.11/site-packages/mdurl/_encode.py",
+    "lib/python3.11/site-packages/mdurl/_format.py",
+    "lib/python3.11/site-packages/mdurl/_parse.py",
+    "lib/python3.11/site-packages/mdurl/_url.py",
+    "lib/python3.11/site-packages/mdurl/py.typed"
+  ],
+  "fn": "mdurl-0.1.0-py311hca03da5_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/opt/anaconda3/pkgs/mdurl-0.1.0-py311hca03da5_0",
+    "type": 1
+  },
+  "md5": "999ffaf2f2eb20f0a9f1d2f58b80ecbb",
+  "name": "mdurl",
+  "package_tarball_full_path": "/opt/anaconda3/pkgs/mdurl-0.1.0-py311hca03da5_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.11/site-packages/mdurl-0.1.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.11/site-packages/mdurl-0.1.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "7c605df6e28667a9603118e98274f64a49ce3eed0d26fccce9534a345e0ef955",
+        "sha256_in_prefix": "7c605df6e28667a9603118e98274f64a49ce3eed0d26fccce9534a345e0ef955",
+        "size_in_bytes": 2338
+      },
+      {
+        "_path": "lib/python3.11/site-packages/mdurl-0.1.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "3856e00b30366fcaedaaa557f3850bcead1896530eb105bcc8aa3e4cc71efc58",
+        "sha256_in_prefix": "3856e00b30366fcaedaaa557f3850bcead1896530eb105bcc8aa3e4cc71efc58",
+        "size_in_bytes": 4718
+      },
+      {
+        "_path": "lib/python3.11/site-packages/mdurl-0.1.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "e00071f0484ab659bbd94556ac1ab1a90da6dc874ac604aa259af1b08a214815",
+        "sha256_in_prefix": "e00071f0484ab659bbd94556ac1ab1a90da6dc874ac604aa259af1b08a214815",
+        "size_in_bytes": 1331
+      },
+      {
+        "_path": "lib/python3.11/site-packages/mdurl-0.1.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.11/site-packages/mdurl-0.1.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "8cf311fc3ce47385f889c42d9b3f35967358fe402c7e883baf2eeaa11bd82d7c",
+        "sha256_in_prefix": "8cf311fc3ce47385f889c42d9b3f35967358fe402c7e883baf2eeaa11bd82d7c",
+        "size_in_bytes": 81
+      },
+      {
+        "_path": "lib/python3.11/site-packages/mdurl-0.1.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "470377dccdeb29de69389175539e6c57f698f4a2416e553429378280ac5bf15b",
+        "sha256_in_prefix": "470377dccdeb29de69389175539e6c57f698f4a2416e553429378280ac5bf15b",
+        "size_in_bytes": 97
+      },
+      {
+        "_path": "lib/python3.11/site-packages/mdurl/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "59ba175b63402d5475ac8ab3d0fc1aab0da1308ada84121265793b822a36e510",
+        "sha256_in_prefix": "59ba175b63402d5475ac8ab3d0fc1aab0da1308ada84121265793b822a36e510",
+        "size_in_bytes": 547
+      },
+      {
+        "_path": "lib/python3.11/site-packages/mdurl/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "7cc68d34ff03744068dead09ff02e721a05aa575a1400fdd5473994542bb86ba",
+        "sha256_in_prefix": "7cc68d34ff03744068dead09ff02e721a05aa575a1400fdd5473994542bb86ba",
+        "size_in_bytes": 706
+      },
+      {
+        "_path": "lib/python3.11/site-packages/mdurl/__pycache__/_decode.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "894c9cf406954d93340b0b41de669b740ea93c6ca45a3790417a62efaf7e4d21",
+        "sha256_in_prefix": "894c9cf406954d93340b0b41de669b740ea93c6ca45a3790417a62efaf7e4d21",
+        "size_in_bytes": 4596
+      },
+      {
+        "_path": "lib/python3.11/site-packages/mdurl/__pycache__/_encode.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "8771db5a8e1e787a8331cbc120bc6af8b9e5cda1b4e054378f5267d5eb408090",
+        "sha256_in_prefix": "8771db5a8e1e787a8331cbc120bc6af8b9e5cda1b4e054378f5267d5eb408090",
+        "size_in_bytes": 3373
+      },
+      {
+        "_path": "lib/python3.11/site-packages/mdurl/__pycache__/_format.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "3a70d5e72c16ea0564670156cd0d1c421f8427c23346bc2f1c54dce973290acb",
+        "sha256_in_prefix": "3a70d5e72c16ea0564670156cd0d1c421f8427c23346bc2f1c54dce973290acb",
+        "size_in_bytes": 1059
+      },
+      {
+        "_path": "lib/python3.11/site-packages/mdurl/__pycache__/_parse.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "e4d53708a5948e1684d140244e82e586bc34a09de19497f8c493a2288c20e06c",
+        "sha256_in_prefix": "e4d53708a5948e1684d140244e82e586bc34a09de19497f8c493a2288c20e06c",
+        "size_in_bytes": 8370
+      },
+      {
+        "_path": "lib/python3.11/site-packages/mdurl/__pycache__/_url.cpython-311.pyc",
+        "path_type": "hardlink",
+        "sha256": "25da75666d66bfc77eac94b56c163ccd4afe13de352e68425a1459ef300db4ac",
+        "sha256_in_prefix": "25da75666d66bfc77eac94b56c163ccd4afe13de352e68425a1459ef300db4ac",
+        "size_in_bytes": 843
+      },
+      {
+        "_path": "lib/python3.11/site-packages/mdurl/_decode.py",
+        "path_type": "hardlink",
+        "sha256": "2b3cf417cb0cf996cb8f48a57f9361de6fee5c8dd651b998f03a38eb8a5b7469",
+        "sha256_in_prefix": "2b3cf417cb0cf996cb8f48a57f9361de6fee5c8dd651b998f03a38eb8a5b7469",
+        "size_in_bytes": 3291
+      },
+      {
+        "_path": "lib/python3.11/site-packages/mdurl/_encode.py",
+        "path_type": "hardlink",
+        "sha256": "e23ae0fa61f4956a7fbc7d1503b03cc4003abc6be3d1325473e928e59de293c7",
+        "sha256_in_prefix": "e23ae0fa61f4956a7fbc7d1503b03cc4003abc6be3d1325473e928e59de293c7",
+        "size_in_bytes": 2569
+      },
+      {
+        "_path": "lib/python3.11/site-packages/mdurl/_format.py",
+        "path_type": "hardlink",
+        "sha256": "01031147fef2acbeb9c30f1ce0c2ae01da39d2f969c409f26dd7febe56d90b5b",
+        "sha256_in_prefix": "01031147fef2acbeb9c30f1ce0c2ae01da39d2f969c409f26dd7febe56d90b5b",
+        "size_in_bytes": 592
+      },
+      {
+        "_path": "lib/python3.11/site-packages/mdurl/_parse.py",
+        "path_type": "hardlink",
+        "sha256": "20266f50b511de72598e105fe9a1c6340a1f925689c8ccdae6b33a6e3fcab079",
+        "sha256_in_prefix": "20266f50b511de72598e105fe9a1c6340a1f925689c8ccdae6b33a6e3fcab079",
+        "size_in_bytes": 11383
+      },
+      {
+        "_path": "lib/python3.11/site-packages/mdurl/_url.py",
+        "path_type": "hardlink",
+        "sha256": "177f995e740b4c156afd3201e0efd87290647ae35f023d69b68775624f63ef4c",
+        "sha256_in_prefix": "177f995e740b4c156afd3201e0efd87290647ae35f023d69b68775624f63ef4c",
+        "size_in_bytes": 279
+      },
+      {
+        "_path": "lib/python3.11/site-packages/mdurl/py.typed",
+        "path_type": "hardlink",
+        "sha256": "f0f8f2675695a10a5156fb7bd66bafbaae6a13e8d315990af862c792175e6e67",
+        "sha256_in_prefix": "f0f8f2675695a10a5156fb7bd66bafbaae6a13e8d315990af862c792175e6e67",
+        "size_in_bytes": 26
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "c8886835903573a4dd50fa9c60fbd579019f6038be15d5da79faa0d880899722",
+  "size": 23631,
+  "subdir": "osx-arm64",
+  "timestamp": 1677942274000,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-arm64/mdurl-0.1.0-py311hca03da5_0.conda",
+  "version": "0.1.0"
+}
