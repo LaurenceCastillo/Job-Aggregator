@@ -1,4 +1,4 @@
-FROM python:3.8-slim-buster
+FROM python:3.11-slim
  
 WORKDIR /backend
  
@@ -7,7 +7,7 @@ ENV PYTHONBUFFERED 1
  
 # install system dependencies
 RUN apt-get update \
-  && apt-get -y install netcat gcc postgresql \
+  && apt-get -y install netcat-openbsd gcc postgresql \
   && apt-get clean
  
 # install python dependencies
