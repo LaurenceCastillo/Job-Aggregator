@@ -4,7 +4,7 @@ from app.core.config import DATABASE_URL
 import logging
  
 logger = logging.getLogger(__name__)
-logging.basicConfig(level=logging.INFO)
+logging.basicConfig(level=logging.INFO) 
 
  
  
