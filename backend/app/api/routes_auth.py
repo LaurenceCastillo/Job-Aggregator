@@ -1,7 +1,13 @@
 #login, logout, register, etc
 from fastapi import FastAPI
-from fastapi import APIRouter
 from typing import List
+
+from fastapi import APIRouter, Body, Depends  
+from starlette.status import HTTP_201_CREATED  
+ 
+from app.models.cleaning import CleaningCreate, CleaningPublic #change in the future
+from app.db.repositories.cleanings import CleaningsRepository  
+from app.api.dependencies.database import get_repository  
 
 router = APIRouter()
 
@@ -29,3 +35,12 @@ async def post_login():
 @router.get("/homepage")
 async def home():
     pass
+
+@router.post("/", response_model=CleaningPublic, name="cleanings:create-cleaning", status_code=HTTP_201_CREATED) #change in the future
+async def create_new_cleaning(
+    new_cleaning: CleaningCreate = Body(..., embed=True),
+    cleanings_repo: CleaningsRepository = Depends(get_repository(CleaningsRepository)),
+) -> CleaningPublic:
+    created_cleaning = await cleanings_repo.create_cleaning(new_cleaning=new_cleaning)
+ 
+    return created_cleaning

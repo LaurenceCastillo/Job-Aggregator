@@ -24,12 +24,26 @@ def create_cleanings_table() -> None:
         sa.Column("cleaning_type", sa.Text, nullable=False, server_default="spot_clean"), #server_default states default column value which is enforced by the server
         sa.Column("price", sa.Numeric(10, 2), nullable=False),
     )
+
+def create_profile_table() -> None:
+    pass
+
+def create_user_skills_table() -> None:
+    pass
+def create_user_interests_table() -> None:
+    pass
+def create_preferred_locations_table() -> None:
+    pass
+def create_search_history_table() -> None:
+    pass
+def create_clicked_jobs_table() -> None:
+    pass
  
 def upgrade() -> None:
-    pass
+    create_cleanings_table()
  
  
 def downgrade() -> None:
-    pass
+    op.drop_table("cleanings")
  
  
